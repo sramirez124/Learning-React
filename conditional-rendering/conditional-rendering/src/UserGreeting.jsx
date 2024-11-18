@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function UserGreeting(props) {
     // One way to do it
     // if (props.isLoggedIn) {
