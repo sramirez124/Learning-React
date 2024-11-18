@@ -22,5 +22,16 @@ function UserGreeting(props) {
                         </h1>
 
     return props.isLoggedIn ? welcomeMessage : loginPrompt
-}   
+}
+
+UserGreeting.propTypes = {
+    isLoggedIn: PropTypes.bool,
+    username: PropTypes.string
+}
+
+UserGreeting.defaultProps = {
+    isLoggedIn: false,
+    username: "Guest"
+}
+
 export default UserGreeting
