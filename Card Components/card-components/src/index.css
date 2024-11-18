@@ -1,7 +1,30 @@
+pre, code { font-family: Hack, monospace; }
+
 .card{
+  font-family: Hack, monospace;
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 10px;
   box-shadow: 5px 5px 5px hsl(0, 0%, 0.1%);
   padding: 20px;
-  margin: 10px
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card-image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-name{
+  margin: 0;
+  color: hsl(0, 0, 20%)
+}
+
+.card .card-title{
+  margin: 0;
+  color: hsl(0, 0, 40%)
 }
