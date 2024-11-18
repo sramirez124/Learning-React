@@ -9,6 +9,9 @@ function List () {
     // Reverse Sort
     // fruits.sort((a, b) => b.name.localeCompare(a.name))
 
+    // Calories Sort
+    // fruits.sort((a, b) => a.calories - b.calories)
+
     // Take the original array and return a new array
     const listItems = fruits.map((fruit) => <li key={fruit.id}>
                                 {fruit.name}: &nbsp;
