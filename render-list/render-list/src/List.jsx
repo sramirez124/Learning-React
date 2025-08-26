@@ -9,8 +9,13 @@ function List () {
     // Reverse Sort
     // fruits.sort((a, b) => b.name.localeCompare(a.name))
 
-    // Calories Sort
+    // Calories Numerical Sort
     // fruits.sort((a, b) => a.calories - b.calories)
+
+    // Reverse Calories Numerical Sort
+    // fruits.sort((a, b) => b.calories - a.calories)
+
+    const lowCalFruits = fruits.filter((fruit) => fruit.calories < 100)
 
     // Take the original array and return a new array
     const listItems = fruits.map((fruit) => <li key={fruit.id}>
